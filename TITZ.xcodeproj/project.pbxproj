@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44DA40631D7392F900437A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA40621D7392F900437A5D /* AppDelegate.swift */; };
+		44DA40651D7392F900437A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA40641D7392F900437A5D /* ViewController.swift */; };
+		44DA40681D7392F900437A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DA40661D7392F900437A5D /* Main.storyboard */; };
+		44DA406A1D7392F900437A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DA40691D7392F900437A5D /* Assets.xcassets */; };
+		44DA406D1D7392F900437A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DA406B1D7392F900437A5D /* LaunchScreen.storyboard */; };
+		44DA40781D7392F900437A5D /* TITZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA40771D7392F900437A5D /* TITZTests.swift */; };
+		44DA40831D7392F900437A5D /* TITZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA40821D7392F900437A5D /* TITZUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44DA40741D7392F900437A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44DA40571D7392F900437A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44DA405E1D7392F900437A5D;
+			remoteInfo = TITZ;
+		};
+		44DA407F1D7392F900437A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44DA40571D7392F900437A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44DA405E1D7392F900437A5D;
+			remoteInfo = TITZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44DA405F1D7392F900437A5D /* TITZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TITZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DA40621D7392F900437A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44DA40641D7392F900437A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44DA40671D7392F900437A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44DA40691D7392F900437A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44DA406C1D7392F900437A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44DA406E1D7392F900437A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DA40731D7392F900437A5D /* TITZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TITZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DA40771D7392F900437A5D /* TITZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TITZTests.swift; sourceTree = "<group>"; };
+		44DA40791D7392F900437A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DA407E1D7392F900437A5D /* TITZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TITZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DA40821D7392F900437A5D /* TITZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TITZUITests.swift; sourceTree = "<group>"; };
+		44DA40841D7392F900437A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44DA405C1D7392F900437A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DA40701D7392F900437A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DA407B1D7392F900437A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44DA40561D7392F900437A5D = {
+			isa = PBXGroup;
+			children = (
+				44DA40611D7392F900437A5D /* TITZ */,
+				44DA40761D7392F900437A5D /* TITZTests */,
+				44DA40811D7392F900437A5D /* TITZUITests */,
+				44DA40601D7392F900437A5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44DA40601D7392F900437A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44DA405F1D7392F900437A5D /* TITZ.app */,
+				44DA40731D7392F900437A5D /* TITZTests.xctest */,
+				44DA407E1D7392F900437A5D /* TITZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44DA40611D7392F900437A5D /* TITZ */ = {
+			isa = PBXGroup;
+			children = (
+				44DA40621D7392F900437A5D /* AppDelegate.swift */,
+				44DA40641D7392F900437A5D /* ViewController.swift */,
+				44DA40661D7392F900437A5D /* Main.storyboard */,
+				44DA40691D7392F900437A5D /* Assets.xcassets */,
+				44DA406B1D7392F900437A5D /* LaunchScreen.storyboard */,
+				44DA406E1D7392F900437A5D /* Info.plist */,
+			);
+			path = TITZ;
+			sourceTree = "<group>";
+		};
+		44DA40761D7392F900437A5D /* TITZTests */ = {
+			isa = PBXGroup;
+			children = (
+				44DA40771D7392F900437A5D /* TITZTests.swift */,
+				44DA40791D7392F900437A5D /* Info.plist */,
+			);
+			path = TITZTests;
+			sourceTree = "<group>";
+		};
+		44DA40811D7392F900437A5D /* TITZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44DA40821D7392F900437A5D /* TITZUITests.swift */,
+				44DA40841D7392F900437A5D /* Info.plist */,
+			);
+			path = TITZUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44DA405E1D7392F900437A5D /* TITZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DA40871D7392F900437A5D /* Build configuration list for PBXNativeTarget "TITZ" */;
+			buildPhases = (
+				44DA405B1D7392F900437A5D /* Sources */,
+				44DA405C1D7392F900437A5D /* Frameworks */,
+				44DA405D1D7392F900437A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TITZ;
+			productName = TITZ;
+			productReference = 44DA405F1D7392F900437A5D /* TITZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44DA40721D7392F900437A5D /* TITZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DA408A1D7392F900437A5D /* Build configuration list for PBXNativeTarget "TITZTests" */;
+			buildPhases = (
+				44DA406F1D7392F900437A5D /* Sources */,
+				44DA40701D7392F900437A5D /* Frameworks */,
+				44DA40711D7392F900437A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44DA40751D7392F900437A5D /* PBXTargetDependency */,
+			);
+			name = TITZTests;
+			productName = TITZTests;
+			productReference = 44DA40731D7392F900437A5D /* TITZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44DA407D1D7392F900437A5D /* TITZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DA408D1D7392F900437A5D /* Build configuration list for PBXNativeTarget "TITZUITests" */;
+			buildPhases = (
+				44DA407A1D7392F900437A5D /* Sources */,
+				44DA407B1D7392F900437A5D /* Frameworks */,
+				44DA407C1D7392F900437A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44DA40801D7392F900437A5D /* PBXTargetDependency */,
+			);
+			name = TITZUITests;
+			productName = TITZUITests;
+			productReference = 44DA407E1D7392F900437A5D /* TITZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44DA40571D7392F900437A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.NiggasIncorporated;
+				TargetAttributes = {
+					44DA405E1D7392F900437A5D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					44DA40721D7392F900437A5D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 44DA405E1D7392F900437A5D;
+					};
+					44DA407D1D7392F900437A5D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 44DA405E1D7392F900437A5D;
+					};
+				};
+			};
+			buildConfigurationList = 44DA405A1D7392F900437A5D /* Build configuration list for PBXProject "TITZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44DA40561D7392F900437A5D;
+			productRefGroup = 44DA40601D7392F900437A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44DA405E1D7392F900437A5D /* TITZ */,
+				44DA40721D7392F900437A5D /* TITZTests */,
+				44DA407D1D7392F900437A5D /* TITZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44DA405D1D7392F900437A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA406D1D7392F900437A5D /* LaunchScreen.storyboard in Resources */,
+				44DA406A1D7392F900437A5D /* Assets.xcassets in Resources */,
+				44DA40681D7392F900437A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DA40711D7392F900437A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DA407C1D7392F900437A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44DA405B1D7392F900437A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA40651D7392F900437A5D /* ViewController.swift in Sources */,
+				44DA40631D7392F900437A5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DA406F1D7392F900437A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA40781D7392F900437A5D /* TITZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44DA407A1D7392F900437A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA40831D7392F900437A5D /* TITZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44DA40751D7392F900437A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44DA405E1D7392F900437A5D /* TITZ */;
+			targetProxy = 44DA40741D7392F900437A5D /* PBXContainerItemProxy */;
+		};
+		44DA40801D7392F900437A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44DA405E1D7392F900437A5D /* TITZ */;
+			targetProxy = 44DA407F1D7392F900437A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44DA40661D7392F900437A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44DA40671D7392F900437A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44DA406B1D7392F900437A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44DA406C1D7392F900437A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44DA40851D7392F900437A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44DA40861D7392F900437A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44DA40881D7392F900437A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TITZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niggaincorporated.TITZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44DA40891D7392F900437A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TITZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niggaincorporated.TITZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44DA408B1D7392F900437A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TITZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niggaincorporated.TITZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TITZ.app/TITZ";
+			};
+			name = Debug;
+		};
+		44DA408C1D7392F900437A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TITZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niggaincorporated.TITZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TITZ.app/TITZ";
+			};
+			name = Release;
+		};
+		44DA408E1D7392F900437A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TITZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niggaincorporated.TITZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TITZ;
+			};
+			name = Debug;
+		};
+		44DA408F1D7392F900437A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TITZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niggaincorporated.TITZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TITZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44DA405A1D7392F900437A5D /* Build configuration list for PBXProject "TITZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DA40851D7392F900437A5D /* Debug */,
+				44DA40861D7392F900437A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DA40871D7392F900437A5D /* Build configuration list for PBXNativeTarget "TITZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DA40881D7392F900437A5D /* Debug */,
+				44DA40891D7392F900437A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44DA408A1D7392F900437A5D /* Build configuration list for PBXNativeTarget "TITZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DA408B1D7392F900437A5D /* Debug */,
+				44DA408C1D7392F900437A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44DA408D1D7392F900437A5D /* Build configuration list for PBXNativeTarget "TITZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DA408E1D7392F900437A5D /* Debug */,
+				44DA408F1D7392F900437A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44DA40571D7392F900437A5D /* Project object */;
+}
